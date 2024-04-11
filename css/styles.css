@@ -632,6 +632,10 @@ button {
     fill: #ffffff;
 }
 
+.btn-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal {
     padding: 72px 24px 24px 24px;
 }
@@ -685,10 +689,15 @@ button {
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
-.input-text.personal-icon:focus {
+.input-text:focus .personal-icon {
     fill: #4D5AE5;
+}
+
+.user-form-comment {
+    margin-bottom: 16px;
 }
 
 .comment-u {
@@ -708,17 +717,9 @@ button {
     border-color: #4D5AE5;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.user-form-checkbox {
+    margin-bottom: 24px;
+}
 
 .user-checkbox {
     visually-hidden;
@@ -804,7 +805,7 @@ button {
 }
 
 .subscribe-label {
-    gap 24px;
+    gap: 24px;
 }
 
 .subscribe-label-name {
@@ -820,4 +821,20 @@ button {
     border-radius: 4px;
     color: #ffffff;
 
+}
+
+.btn-order {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
