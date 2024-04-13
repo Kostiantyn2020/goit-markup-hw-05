@@ -692,11 +692,11 @@ button {
 
 }
 
-.personal-icon:focus .input-text {
+.input-text:focus .personal-icon: {
     fill: #4D5AE5;
 }
 
-.personal-icon {}
+
 
 .user-form-comment {
     margin-bottom: 16px;
