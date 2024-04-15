@@ -694,7 +694,6 @@ button {
 
 .input-text:focus+.personal-icon {
     fill: #4D5AE5;
-    ;
 }
 
 
@@ -729,6 +728,7 @@ button {
 
 .user-form-checkbox {
     margin-bottom: 24px;
+
 }
 
 
@@ -760,6 +760,7 @@ button {
     justify-content: center;
     fill: transparent;
 }
+
 
 .privacy-link {
     line-height: 1.3;
@@ -864,10 +865,14 @@ button {
 }
 
 .user-privacy-label span {
-    background-color: #404bbf;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    ;
 }
 
 .modal-check:checked+.user-privacy-label span {
     border: none;
     fill: #F4F4FD;
+    background-color: #404bbf;
+
 }
